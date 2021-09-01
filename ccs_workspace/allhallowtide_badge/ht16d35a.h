@@ -9,9 +9,9 @@
  * \copyright MIT License.
  */
 
-#ifndef HT16D_H_
-#define HT16D_H_
+#ifndef HT16D35A_H_
+#define HT16D35A_H_
 
 
 
-#endif /* HT16D_H_ */
+#endif /* HT16D35A_H_ */
