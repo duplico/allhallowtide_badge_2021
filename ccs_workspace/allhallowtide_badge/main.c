@@ -1,5 +1,5 @@
 /**
- * \brief   2021 Allhallowtide badge
+ * \brief   2021 Allhallowtide badge main.
  * \brief   Main entry point for 2021 Allhallowtide Party electronic badge.
  * \author  George Louthan <duplico@dupli.co>
  * \date    2021
