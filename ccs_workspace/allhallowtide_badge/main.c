@@ -17,6 +17,9 @@
 
 // Local headers
 
+// Interrupt flags
+volatile uint8_t f_time_loop = 0;
+
 /// Initialize clock signals and the three system clocks.
 /**
  ** We'll take the DCO to 16 MHz, and divide it by 2 for MCLK.
@@ -78,7 +81,7 @@ void init_clocks() {
     //  Set to MCLK/2 = 8 MHz
     // DIVS__1;
 
-    CSCTL5 = VLOAUTOOFF_1 | DIVS__1 | DIVM__2;
+    CSCTL5 = VLOAUTOOFF_H | DIVS__1 | DIVM__2;
 }
 
 /// Apply the initial configuration of the GPIO and peripheral pins.
@@ -86,9 +89,6 @@ void init_clocks() {
  **
  */
 void init_io() {
-    // Set up the alternate pinout for UCA0
-    SYSCFG3 |= USCIARMP;
-
     // Per datasheet S4.6, p20, unused pins should be switched to outputs.
 
     // IO:
@@ -160,15 +160,6 @@ int main(void) {
 
     while(1)
     {
-        // Check whether CapTIvate needs to be serviced.
-        if (g_bConvTimerFlag)
-        {
-            // Service the CapTIvate UI.
-            CAPT_updateUI(&g_uiApp);
-
-            g_bConvTimerFlag = false;
-        }
-
         // Check whether the time loop flag has been set; this is our
         //  main animation and debouncing loop.
         if (f_time_loop) {
