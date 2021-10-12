@@ -1,0 +1,13 @@
+#C:\Users\george\project\allhallowtide_badge_2021\CapTIvate\allhallowtide_badge_2021/.plotProps/BTN01_EYE_OscilloscopePlot.props Plotter Data
+#Tue Oct 12 12:46:43 CDT 2021
+titleFont=helvetica-BOLD-24
+xrangetype=true
+labelFont=helvetica-BOLD-12
+xlabel=Time
+vert_data_grid=false
+graphtype=PtsCon
+yrangetype=true
+persistence=2000
+legendFont=helvetica-BOLD-14
+ylabel=Channel Data
+horiz_data_grid=true

@@ -1,0 +1,23 @@
+#C:\Users\george\project\allhallowtide_badge_2021\CapTIvate\allhallowtide_badge_2021/.plotProps/MSP430FR2633IDA_TimeEstPlot.props Plotter Data
+#Tue Oct 12 12:58:46 CDT 2021
+--Scan\ Period--=on
+Signal.alias.BTN01_EYE=0.270ms
+xlabel=Time
+ylabel=Channel Data
+labelFont=helvetica-BOLD-12
+Signal.alias.--Sensors\ Total--=0.810ms
+BTN00_NOSE=on
+titleFont=helvetica-BOLD-24
+xmin=0.000000
+Signal.alias.BTN00_NOSE=0.270ms
+xmax=42.900000
+BTN01_EYE=on
+Signal.alias.--Scan\ Period--=33.000ms
+legendFont=helvetica-BOLD-14
+ymin=0.000000
+ymax=2.000000
+graphtype=PtsCon
+persistence=2000
+--Sensors\ Total--=on
+BTN02_LOCK=on
+Signal.alias.BTN02_LOCK=0.270ms

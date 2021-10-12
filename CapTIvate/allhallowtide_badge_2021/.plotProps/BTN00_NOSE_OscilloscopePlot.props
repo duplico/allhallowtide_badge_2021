@@ -1,0 +1,23 @@
+#C:\Users\george\project\allhallowtide_badge_2021\CapTIvate\allhallowtide_badge_2021/.plotProps/BTN00_NOSE_OscilloscopePlot.props Plotter Data
+#Tue Oct 12 12:46:30 CDT 2021
+Signal.alias.E00\ Prox=
+xlabel=Time
+horiz_data_grid=true
+vert_data_grid=false
+ylabel=Channel Data
+E00\ Delta=off
+Signal.alias.E00\ Delta=
+labelFont=helvetica-BOLD-12
+xrangetype=true
+titleFont=helvetica-BOLD-24
+Signal.alias.E00\ Lta=
+legendFont=helvetica-BOLD-14
+E00\ Count=on
+E00\ Touch=off
+Signal.alias.E00\ Count=
+Signal.alias.E00\ Touch=
+yrangetype=true
+graphtype=PtsCon
+persistence=2000
+E00\ Prox=off
+E00\ Lta=on

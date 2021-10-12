@@ -1,0 +1,29 @@
+#C:\Users\george\project\allhallowtide_badge_2021\CapTIvate\allhallowtide_badge_2021/.plotProps/MSP00_BarPlot.props Plotter Data
+#Tue Aug 31 21:11:07 CDT 2021
+ymin=0.000000
+ylabel=Channel Data
+Count=on
+Signal.alias.Prox\ Threshold=
+graphtype=PtsCon
+xrangetype=false
+Prox\ Threshold=on
+xmax=1.000000
+Signal.alias.Touch\ Threshold=
+vert_data_grid=false
+Signal.alias.GRID=
+Signal.alias.Delta=
+xlabel=Time
+Touch\ Threshold=on
+xmin=-1.000000
+labelFont=helvetica-BOLD-12
+yrangetype=false
+GRID=on
+Signal.alias.Count=
+titleFont=helvetica-BOLD-24
+horiz_data_grid=true
+Signal.alias.Lta=
+ymax=1000.000000
+Delta=on
+Lta=on
+persistence=2000
+legendFont=helvetica-BOLD-14
